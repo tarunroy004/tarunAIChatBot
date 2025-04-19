@@ -7,7 +7,7 @@ import { UserProvider } from './context/UserContext.jsx';
 import { ChatProvider } from './context/ChatContext.jsx';
 
 // export const server = "http://localhost:8050"; // Replace with your backend URL
-export const server = "https://tarun-ai-chat-bot.vercel.app/"; // Replace with your backend URL
+export const server = "https://tarunaichatserver.onrender.com"; // Replace with your backend URL
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
